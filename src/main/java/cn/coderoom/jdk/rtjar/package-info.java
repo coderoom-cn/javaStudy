@@ -1,8 +1,8 @@
 /**
- * @package：cn.coderoom.jdk.rtjar
- * @description:
- * @author: Leesire
- * @email:coderoom.cn@gmail.com
- * @createtime: 2020/3/19
- */
+ * rt.jar包
+ * @package cn.coderoom.jdk.rtjar
+ * @author lim
+ * @email coderoom.cn@gmail.com
+ * @date 2020/3/19 15:49
+*/
 package cn.coderoom.jdk.rtjar;

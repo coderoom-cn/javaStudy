@@ -1,8 +1,8 @@
 /**
- * @package：cn.coderoom.jdk.rtjar.java.util.concurrent
- * @description:
- * @author: Leesire
- * @email:coderoom.cn@gmail.com
- * @createtime: 2020/3/19
- */
+ * concurrent
+ * @package cn.coderoom.jdk.rtjar.java.util.concurrent
+ * @author lim
+ * @email coderoom.cn@gmail.com
+ * @date 2020/3/19 15:51
+*/
 package cn.coderoom.jdk.rtjar.java.util.concurrent;
