@@ -1,4 +1,4 @@
-package cn.coderoom.books.effectivejava.chapter1;
+package cn.coderoom.books.effectivejava.chapter1.one;
 
 public class One {
 }
