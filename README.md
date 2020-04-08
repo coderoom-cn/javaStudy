@@ -1,7 +1,7 @@
 
 # javaStudy
 
-java学习实践代码，单元测试，代码说明。
+java学习实践代码，单元测试，代码说明。Effective java ，JVM虚拟机。
 
 ## 多线程
 
