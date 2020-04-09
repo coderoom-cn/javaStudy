@@ -23,9 +23,11 @@ import java.util.concurrent.locks.ReentrantLock;
  * @author: Leesire
  * @email:coderoom.cn@gmail.com
  */
-public class S16_ReentrantLock04 {
+public class S16_ReentrantLock04 extends Thread {
 
     private static ReentrantLock lock=new ReentrantLock(true); //参数为true表示为公平锁，请对比输出结果
+
+    @Override
     public void run() {
         for(int i=0; i<100; i++) {
             lock.lock();

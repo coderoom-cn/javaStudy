@@ -65,7 +65,7 @@ public class S16_ReentrantLock02 {
     }
 
     public static void main(String[] args) {
-        T03_ReentrantLock3 rl = new T03_ReentrantLock3();
+        S16_ReentrantLock02 rl = new S16_ReentrantLock02();
         new Thread(rl::m1).start();
         try {
             TimeUnit.SECONDS.sleep(1);

@@ -20,7 +20,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * @author: Leesire
  * @email:coderoom.cn@gmail.com
  */
-public class S25_Container01 {
+public class S25_Container01<T> {
 
     final private LinkedList<T> lists = new LinkedList<>();
     final private int MAX = 10; //最多10个元素

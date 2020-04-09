@@ -32,7 +32,7 @@ public class S09 {
     }
 
     public static void main(String[] args) {
-        new T().m1();
+        new S09().m1();
     }
 
 }

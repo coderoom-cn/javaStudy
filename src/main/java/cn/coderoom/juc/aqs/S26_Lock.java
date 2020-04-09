@@ -1,7 +1,5 @@
 package cn.coderoom.juc.aqs;
 
-import com.sun.corba.se.impl.orbutil.concurrent.Sync;
-
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
@@ -16,7 +14,7 @@ import java.util.concurrent.locks.Lock;
  */
 public class S26_Lock implements Lock {
 
-    private Sync sync = new Sync();
+    private S27_AQS sync = new S27_AQS();
 
     @Override
     public void lock() {

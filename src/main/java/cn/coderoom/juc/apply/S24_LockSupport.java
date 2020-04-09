@@ -1,6 +1,9 @@
 package cn.coderoom.juc.apply;
 
 import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.LockSupport;
 
 /**
@@ -46,7 +49,7 @@ public class S24_LockSupport {
     }
 
     public static void main(String[] args) {
-        T06_LockSupport c = new T06_LockSupport();
+        S24_LockSupport c = new S24_LockSupport();
 
         CountDownLatch latch = new CountDownLatch(1);
 

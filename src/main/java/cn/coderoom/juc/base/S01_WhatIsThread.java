@@ -3,7 +3,12 @@ package cn.coderoom.juc.base;
 import java.util.concurrent.TimeUnit;
 
 /**
+ * Thread implements Runnable
+ * Thread.start()： 导致此线程开始执行; Java Virtual Machine调用此线程的run方法。
+ * join() ：
+ * run()：Thread类重写了Runnable接口的run()方法。
  *
+ * https://blog.csdn.net/lxx19941220/article/details/92587043
  * @package：cn.coderoom.juc.c00
  * @author: Leesire
  * @email:coderoom.cn@gmail.com

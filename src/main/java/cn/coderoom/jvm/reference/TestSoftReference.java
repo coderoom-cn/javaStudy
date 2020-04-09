@@ -1,5 +1,7 @@
 package cn.coderoom.jvm.reference;
 
+import java.lang.ref.SoftReference;
+
 /**
  *
  * 软引用
@@ -12,9 +14,10 @@ package cn.coderoom.jvm.reference;
  * @author: Leesire
  * @email:coderoom.cn@gmail.com
  */
-public class SoftReference {
+public class TestSoftReference {
 
     public static void main(String[] args) {
+
         SoftReference<byte[]> m = new SoftReference<>(new byte[1024*1024*10]);
         //m = null;
         System.out.println(m.get());

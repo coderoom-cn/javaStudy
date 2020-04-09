@@ -6,10 +6,11 @@ package cn.coderoom.juc.keywords;
  * @author: Leesire
  * @email:coderoom.cn@gmail.com
  */
-public class S07_Synchronized {
+public class S07_Synchronized extends Thread {
 
     private /*volatile*/ int count = 100;
 
+    @Override
     public /*synchronized*/ void run() {
         count--;
         System.out.println(Thread.currentThread().getName() + " count = " + count);
