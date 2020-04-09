@@ -1,4 +1,4 @@
-package cn.coderoom.juc.c00;
+package cn.coderoom.juc.base;
 
 import java.util.concurrent.TimeUnit;
 

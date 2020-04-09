@@ -1,4 +1,4 @@
-package cn.coderoom.juc.c00;
+package cn.coderoom.juc.base;
 
 /**
  * 启动线程的三种方式 1：Thread 2: Runnable 3:Executors.newCachedThrad
