@@ -6,6 +6,7 @@ import java.util.concurrent.locks.AbstractQueuedSynchronizer;
  * @package：cn.coderoom.juc.aqs
  * @author: Leesire
  * @email:coderoom.cn@gmail.com
+ * @see S26_Lock02_test
  */
 public class S27_AQS extends AbstractQueuedSynchronizer {
 

@@ -1,5 +1,7 @@
 package cn.coderoom.juc.locks;
 
+import cn.coderoom.juc.aqs.S26_Lock02_test;
+
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -11,6 +13,7 @@ import java.util.concurrent.TimeUnit;
  * @package：cn.coderoom.juc.keywords
  * @author: Leesire
  * @email:coderoom.cn@gmail.com
+ * @see S26_Lock02_test
  */
 public class S16_ReentrantLock {
 
@@ -22,7 +25,9 @@ public class S16_ReentrantLock {
                 e.printStackTrace();
             }
             System.out.println(i);
-            if(i == 2) m2();
+            if(i == 2) {
+                m2();
+            }
         }
 
     }

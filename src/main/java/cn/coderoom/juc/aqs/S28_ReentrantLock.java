@@ -3,11 +3,12 @@ package cn.coderoom.juc.aqs;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
+ *
+ *
  * @package：cn.coderoom.juc.aqs
- * @description:
- * @author: Leesire
+ * @author: lim
  * @email:coderoom.cn@gmail.com
- * @createtime: 2020/4/9
+ * @see S26_Lock02_test
  */
 public class S28_ReentrantLock {
 
@@ -22,7 +23,6 @@ public class S28_ReentrantLock {
 
         lock.unlock();
 
-        //synchronized 程序员的丽春院 JUC
     }
 
 }

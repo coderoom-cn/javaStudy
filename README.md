@@ -1,7 +1,7 @@
 
 # javaStudy
 
-java学习实践代码，单元测试，代码说明。Effective java ，JVM虚拟机。
+java学习实践代码，单元测试，代码说明。Effective java ，深入理解Java虚拟机第二版。
 
 ## 环境
 JDK8

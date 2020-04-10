@@ -5,11 +5,12 @@ import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
+ *
+ * ConcurrentHashMap定义了线程安全的复合操作。
+ *
  * @package：cn.coderoom.juc.containers
- * @description:
  * @author: Leesire
  * @email:coderoom.cn@gmail.com
- * @createtime: 2020/4/9
  */
 public class TestConcurrentHashMap {
 
