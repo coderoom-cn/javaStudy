@@ -4,7 +4,6 @@
 /.idea
 javastudy.iml
 *.iml
-/target
 
 # Log file
 *.log
@@ -26,3 +25,5 @@ javastudy.iml
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+java-agent-test/target/
+java-agent/target/
