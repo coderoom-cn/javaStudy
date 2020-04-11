@@ -9,6 +9,8 @@
   <packaging>pom</packaging>
   <version>1.0.0-SNAPSHOT</version>
   <modules>
+      <module>java-agent</module>
+    <module>java-agent-test</module>
   </modules>
 
   <name>javastudy</name>
