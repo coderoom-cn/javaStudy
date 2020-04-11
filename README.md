@@ -6,6 +6,15 @@ java学习实践代码，单元测试，代码说明。Effective java ，深入�
 ## 环境
 JDK8
 
+## 项目结构
+
+### java-agent
+java agent 技术
+### java-agent-test
+java agent 技术测试应用
+
+JavaAgentAppTest运行之前，VM option：-javaagent:E:\Code\javaStudy\java-agent\target\java-agent.jar
+
 ## 多线程
 
 ## 包结构
