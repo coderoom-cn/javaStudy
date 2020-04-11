@@ -3,6 +3,8 @@
 
 /.idea
 javastudy.iml
+*.iml
+/target
 
 # Log file
 *.log
