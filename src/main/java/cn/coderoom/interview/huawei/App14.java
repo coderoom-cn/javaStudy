@@ -11,7 +11,7 @@ import java.util.Scanner;
  * 输出描述：将这个整数以字符串的形式逆序输出
  *
  * @package: cn.coderoom.interview.huawei
- * @class: A14
+ * @class: App14
  * @author: leesire
  * @email: coderoom.cm@gmail.com
  * @version: 1.0
