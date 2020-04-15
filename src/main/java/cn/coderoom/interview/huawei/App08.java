@@ -4,10 +4,16 @@ import java.util.Scanner;
 
 /**
  *
+ * 输入一个正整数，按照从小到大的顺序输出它的所有质数的因子（如180的质数因子为2 2 3 3 5 ）
+ * 输入参数：输入一个long型整数
+ * 输出描述：按照从小到大的顺序输出它的所有质数的因子，以空格隔开。最后一个数后面也要有空格。
  *
- * @package：cn.coderoom.interview.huawei
- * @author: Leesire
- * @email:coderoom.cn@gmail.com
+ * @package: cn.coderoom.interview.huawei
+ * @class: App08
+ * @author: leesire
+ * @email: coderoom.cm@gmail.com
+ * @version: 1.0
+ * @date: 2019/4/15 20:31
  */
 public class App08 {
 
