@@ -13,6 +13,7 @@
     <module>java-agent-test</module>
       <module>java-thread</module>
       <module>java-io</module>
+      <module>java-base</module>
   </modules>
 
   <name>javastudy</name>
@@ -139,6 +140,17 @@
       <groupId>com.alibaba</groupId>
       <artifactId>fastjson</artifactId>
       <version>1.2.7</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.openjdk.jmh</groupId>
+      <artifactId>jmh-core</artifactId>
+      <version>1.23</version>
+    </dependency>
+    <dependency>
+      <groupId>org.openjdk.jmh</groupId>
+      <artifactId>jmh-generator-annprocess</artifactId>
+      <version>1.23</version>
     </dependency>
 
   </dependencies>

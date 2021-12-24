@@ -10,8 +10,8 @@ import java.util.Iterator;
 
 public class SocketChannelServer {
 
-    public static void main(String[] args) throws Exception
-    {
+    public static void main(String[] args) throws Exception {
+
         // 创建选择器
         Selector selector = Selector.open();
         // 打开监听信道
