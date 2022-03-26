@@ -10,11 +10,12 @@
   <version>1.0.0-SNAPSHOT</version>
   <modules>
       <module>java-agent</module>
-    <module>java-agent-test</module>
+      <module>java-agent-test</module>
       <module>java-thread</module>
       <module>java-io</module>
       <module>java-base</module>
       <module>java-jvm</module>
+      <module>java-netty</module>
   </modules>
 
   <name>javastudy</name>
