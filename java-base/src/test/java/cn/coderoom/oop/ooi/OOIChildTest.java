@@ -39,6 +39,7 @@ public class OOIChildTest {
         f.start();
         OOIFather fa = new OOIChildb();
         fa.startb();
+        fa.start();
     }
 
 }

@@ -14,6 +14,7 @@ public class OOIChildb extends OOIFather {
     @Override
     public void start(){
         System.out.println("---------------- This is OOIChilda's start ");
+        super.starta();
         System.out.println(i.byteValue());
     }
 
