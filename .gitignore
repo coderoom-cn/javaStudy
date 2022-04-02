@@ -28,3 +28,4 @@ hs_err_pid*
 /target
 java-agent-test/target/
 java-agent/target/
+java-base/target/
