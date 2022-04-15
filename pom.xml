@@ -17,6 +17,7 @@
       <module>java-jvm</module>
       <module>java-netty</module>
       <module>java-designpattern</module>
+      <module>java-algorithm</module>
   </modules>
 
   <name>javastudy</name>
